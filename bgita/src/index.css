@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mainComponent{
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/krishna.jpg");
+  background-color: #000;
+  background-size: 98%;
+}
+
+#flute{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: left top 0;
+}
